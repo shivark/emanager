@@ -12,8 +12,9 @@ namespace eManager.Core.Tests.Unit
     {
 
         [Test]
-       public void gfsdhjdshjsd() { 
-
-    }
+        public void gfs()
+        {
+            Assert.AreEqual(5, 5);
+        }
     }
 }

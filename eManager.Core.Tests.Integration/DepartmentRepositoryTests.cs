@@ -16,7 +16,7 @@ namespace eManager.Core.Tests.Integration
         public void SetUp() {
             _repository = new DepartmentRepository();
         }
-        [Ignore]
+
         [Test]
         public void GetAll_Always_ReturnsAllDepartments() 
         {
